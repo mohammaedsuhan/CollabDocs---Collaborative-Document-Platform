@@ -1,0 +1,17 @@
+# Environment — never commit real secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# Django — if you ever see this file appear, your DB config is broken
+*.sqlite3
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
