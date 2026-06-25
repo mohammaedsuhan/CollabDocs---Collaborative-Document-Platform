@@ -78,6 +78,14 @@ TEMPLATES = [
 WSGI_APPLICATION = 'collabdocs.wsgi.application'
 
 
+# Custom user model
+AUTH_USER_MODEL = 'api.User'
+
+
+DATABASES = {
+    'default': {}
+}
+
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
